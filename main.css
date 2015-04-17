@@ -25,6 +25,9 @@ h1 {
 }
 
 #games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 article {
     background-color: #666;
@@ -33,7 +36,6 @@ article {
     margin: 20px;
     text-align: center;
     width: 240px;
-    height: 400px;
 }
 article > a {
     display: inline-block;
